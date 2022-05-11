@@ -1,5 +1,7 @@
 # Weather-App
 
+Website Link: https://prithvirajkawade.github.io/Weather-App/
+
 Description:
 Created Weather App using Open Weather API which displays the weather of the given city
 
