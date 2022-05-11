@@ -1,0 +1,79 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  background-image: url("https://cdn.pixabay.com/photo/2016/12/29/18/44/background-1939128_1280.jpg");
+}
+
+.card {
+  background: rgba(0, 0, 0, 0.85);
+  color: white;
+  padding: 2rem;
+  border-radius: 1.5rem;
+  width: 100%;
+  max-width: 400px;
+  margin: 1rem;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+}
+
+#submit {
+  margin: 0.5rem;
+  height: 2.9rem;
+  width: 2.9rem;
+  border-radius: 50%;
+  border: none;
+  background: rgba(139, 139, 139, 0.3);
+  color: white;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+.search-bar {
+  outline: none;
+  padding: 0.5rem 1rem;
+  background: rgba(139, 139, 139, 0.3);
+  border-radius: 24px;
+  color: white;
+  font-family: inherit;
+  font-size: 105%;
+  width: 80%;
+}
+
+#submit:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.temp {
+  margin: 0;
+}
+
+.weather.loading {
+  visibility: hidden;
+  max-height: 20px;
+  position: relative;
+}
+
+.weather.loading::after {
+  visibility: visible;
+  content: "Loading...";
+  color: white;
+  position: absolute;
+  top: 0;
+}
+
+.condition {
+  display: flex;
+  align-items: center;
+}
+/* .search-bar{
+    width:80%;
+} */
